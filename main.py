@@ -11,7 +11,7 @@ class Window(QMainWindow):
 
     def __init__(self, *args, **kwargs):
         super(Window, self).__init__(*args, **kwargs)
-        loadUi(r'Database\purchasereq.db', self)
+        loadUi(r'Database\interface.ui', self)
 
         self.setWindowTitle('Закупки')
         self.get_info()
