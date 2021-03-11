@@ -189,15 +189,4 @@ def main_sql(tab_name, comand, *args, **kwargs):
 
 
 if __name__ == '__main__':
-    main_sql('Equipment', 'получить')
-    # main_sql('Procurement', 'добавить', 'Name1', 'Call1', 4, 8)
-    # main_sql('Procurement', 'добавить', 'val_Dep', 'val_Call', '', 1, 1)
-    # main_sql('Procurement', 'получить', 'Equipment')
-    # main_sql('Equipment', 'удалить', 'Name', "")
-    # main_sql('Таблица', 'проверить ключ')
-    # main_sql('Таблица', 'Таблица', Equipment=None, Name_dep=None)
-    # main_sql('Procurement', 'изменить', Satisfied=2, ID=21)
-    # main_sql('Departments', 'получить')
-    # main_sql('Procurement', 'получить', Name_Dep='Кафедра менеджмента', Equipment='мфу')
-    # main_sql('Departments', 'получить', 'Name_Dep, Type_dep')
     pass
